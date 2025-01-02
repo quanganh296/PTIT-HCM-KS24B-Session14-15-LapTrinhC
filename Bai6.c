@@ -6,7 +6,7 @@ int main() {
 
     for (int i = 0; str[i] != '\0'; i++) {
         printf("%c", str[i]);
-        if (str[i] != ' ') { 
+        if (str[i] !=' ') { 
             count++;
         }
     }
